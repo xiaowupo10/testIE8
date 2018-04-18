@@ -1,0 +1,38 @@
+{
+  "name": "testie8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --color --open --compress --content-base",
+    "build": "webpack --config webpack.config.js --progress --display-error-details --colors --display-reasons",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiaowupo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
+    "babel-plugin-transform-es3-property-literals": "^6.22.0",
+    "babel-plugin-transform-object-set-prototype-of-to-assign": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^1.12.4",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "es3ify-webpack-plugin": "0.0.1"
+  }
+}
